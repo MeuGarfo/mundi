@@ -4,5 +4,7 @@
     "e",
     "error",
     "segment",
-    "view"
+    "view",
+    "db",
+    "migrate"
 ]

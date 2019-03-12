@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
 
-    <title>Hello, world!</title>
-    <script src="http://www.webglearth.com/v2/api.js"></script>
+    <title>Mundi</title>
+    <script src="/v2/api.js"></script>
     <script src="/js/main.js"></script>
   </head>
   <body onload="initialize()">
@@ -21,7 +21,17 @@
                 </div>
             </div>
             <div class="col-md-4">
-            controlessadasdasd
+                <form method="post" action="marcador" class="form">
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="nome" id="nome"><br>
+                    <label for="lat">Latitude</label><br>
+                    <input type="text" name="lat" id="lat"><br>
+                    <label for="lon">Longitude</label><br>
+                    <input type="text" name="lon" id="lon"><br><br>
+                    <button class="btn btn-primary" type="submit">
+                        Adicionar
+                    </button>
+                </form>
             </div>
         </div>
     </div>
