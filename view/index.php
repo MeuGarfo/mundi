@@ -16,18 +16,18 @@
   <body onload="initialize()">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-7 offset-md-1">
                 <div id="earth_div">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <form method="post" action="marcador" class="form">
                     <label for="nome">Nome</label><br>
-                    <input type="text" name="nome" id="nome"><br>
+                    <input class="form-control" type="text" name="nome" id="nome"><br>
                     <label for="lat">Latitude</label><br>
-                    <input type="text" name="lat" id="lat"><br>
+                    <input class="form-control" type="text" name="lat" id="lat"><br>
                     <label for="lon">Longitude</label><br>
-                    <input type="text" name="lon" id="lon"><br><br>
+                    <input class="form-control" type="text" name="lon" id="lon"><br><br>
                     <button class="btn btn-primary" type="submit">
                         Adicionar
                     </button>
